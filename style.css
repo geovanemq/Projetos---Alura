@@ -102,3 +102,14 @@ li a{
     color: #ffff;
     border: 2px solid #f7f7f7 ;
 }
+
+@media screen and (max-width: 600px) {
+    .container {width: 100%;
+    }
+    .projetos {
+        align-items: flex-start;
+    }
+    body {
+        background: linear-gradient(#041832 , #3468a7);
+    }
+}
